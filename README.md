@@ -35,5 +35,3 @@ It is a **beginner-friendly full-stack web project** built to demonstrate practi
 - AI-based travel recommendations  
 
 
-## Project Structure (MVC)
-

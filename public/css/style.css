@@ -1,0 +1,159 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+   display:flex;
+   flex-direction:column;
+   min-height:100vh;
+
+}
+/* Hide scrollbar but keep scrolling */
+body {
+  overflow-y: scroll;    
+  overflow-x: hidden;     
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
+body::-webkit-scrollbar {
+  display: none;           
+}
+.container{
+    flex:1;
+}
+
+
+/* navbar */
+.nav-link{
+    color: black !important;
+}
+.fa-compass{
+    color:red;
+}
+.navbar{
+    background-color:white;
+    height:4rem;
+}
+/* Style for the whole form */
+.search-form {
+  gap: 10px; /* space between input and button */
+}
+
+/* Search bar pill */
+.search-pill {
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+/* Button pill */
+.search-pill-btn {
+  border-radius: 50px;
+  padding: 8px 18px;
+  background-color: #ff385c;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-pill-btn:hover {
+  background-color: #e03150;
+}
+
+
+
+
+/* footer */
+footer{
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:1rem;
+    background-color:grey;
+    padding:10px;
+    width:100vh;
+    bottom:0;
+    
+
+}
+.f-info-socials{
+    display:flex;
+     justify-content:space-evenly;
+     height:2rem;
+}
+.info{
+         height:2rem;
+display:flex;
+     justify-content:center;
+}
+.f-info-links a{
+    text-decoration:none;
+    color:black;
+    height:2rem;
+   
+}
+.f-info-links{
+     display:flex;
+    align-items:center;
+        justify-content:center;
+
+}
+footer {
+    width: 100vw; 
+    margin-left:-120px;
+}
+.fa-brands:hover{
+    font-size:1.2rem;
+}
+.info-info:hover{
+ font-size:1.2rem;
+}
+
+
+/* card */
+.card-listing{
+    margin:2rem;
+    border:none !important;
+}
+.card-img-top{
+    height:16rem;
+    width:16rem;
+    border-radius :10px;
+}
+  .lists{
+    text-decoration:none;
+}
+.card-active:hover{
+    background-color:white;
+    opacity:0.8;
+}
+
+
+/* show.ejs */
+.btns{
+    display:flex;
+}
+.btn{
+    margin:2px 30px 7px 2px;
+}
+/* error.ejs */
+.foot{
+    margin-bottom:305px;
+}
+/* //user.js */
+.form{
+    padding-bottom:126px;
+}
+/* //login.js */
+.form2{
+    padding-bottom:213px;
+}
+
+/* searchbar*/
+.btn-search i{
+    display:inline;
+}
